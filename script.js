@@ -15,7 +15,7 @@ let messageHistory = [
   },
   {
       role: 'assistant',
-      content: "Hello! I'm your Counter-Strike assistant. I can help you with anything related to CS:GO or CS2 - from gameplay tips and strategies to information about maps, weapons, professional players, and tournaments. What would you like to know about Counter-Strike today?"
+      content: "Hello! I'm your Counter-Strike, Valorant and Apex Legends assistant. I can help you with anything related to CS:GO or CS2, Valorant and Apex Legends - from gameplay tips and strategies to information about maps, weapons, professional players, and tournaments. What would you like to know about Counter-Strike, Valorant or Apex Legends today?"
   }
 ];
 
