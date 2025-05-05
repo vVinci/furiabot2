@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furia Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>Furia Chatbot</h1>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <div class="message assistant">
+                <div class="avatar">AI</div>
+                <div class="message-content">
+                    Olá! Eu sou o assistente virtual FURIA. Como posso ajudar você hoje?
+                </div>
+            </div>
+        </div>
+        <div class="typing-indicator" id="typing-indicator">FURIA está digitando...</div>
+        <div class="chat-input">
+            <div class="input-container">
+                <textarea 
+                    id="user-input" 
+                    placeholder="Digite a sua mensagem aqui..."
+                    rows="1"
+                ></textarea>
+                <button id="send-button">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
